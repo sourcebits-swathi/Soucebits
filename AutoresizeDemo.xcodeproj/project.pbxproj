@@ -19,6 +19,8 @@
 		672F38E5190F6DC900808A6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672F38CD190F6DC900808A6E /* UIKit.framework */; };
 		672F38ED190F6DC900808A6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 672F38EB190F6DC900808A6E /* InfoPlist.strings */; };
 		672F38EF190F6DC900808A6E /* AutoresizeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 672F38EE190F6DC900808A6E /* AutoresizeDemoTests.m */; };
+		672F38FC190F6DEC00808A6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672F38FA190F6DEC00808A6E /* ViewController.m */; };
+		672F38FD190F6DEC00808A6E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672F38FB190F6DEC00808A6E /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		672F38EA190F6DC900808A6E /* AutoresizeDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoresizeDemoTests-Info.plist"; sourceTree = "<group>"; };
 		672F38EC190F6DC900808A6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		672F38EE190F6DC900808A6E /* AutoresizeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoresizeDemoTests.m; sourceTree = "<group>"; };
+		672F38F9190F6DEC00808A6E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
+		672F38FA190F6DEC00808A6E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
+		672F38FB190F6DEC00808A6E /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../../ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,7 @@
 				672F38D8190F6DC900808A6E /* AppDelegate.h */,
 				672F38D9190F6DC900808A6E /* AppDelegate.m */,
 				672F38DB190F6DC900808A6E /* Images.xcassets */,
+				672F38F8190F6DDC00808A6E /* Classes */,
 				672F38D0190F6DC900808A6E /* Supporting Files */,
 			);
 			path = AutoresizeDemo;
@@ -142,6 +148,16 @@
 				672F38EB190F6DC900808A6E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		672F38F8190F6DDC00808A6E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				672F38F9190F6DEC00808A6E /* ViewController.h */,
+				672F38FA190F6DEC00808A6E /* ViewController.m */,
+				672F38FB190F6DEC00808A6E /* ViewController.xib */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				672F38D4190F6DC900808A6E /* InfoPlist.strings in Resources */,
+				672F38FD190F6DEC00808A6E /* ViewController.xib in Resources */,
 				672F38DC190F6DC900808A6E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672F38FC190F6DEC00808A6E /* ViewController.m in Sources */,
 				672F38DA190F6DC900808A6E /* AppDelegate.m in Sources */,
 				672F38D6190F6DC900808A6E /* main.m in Sources */,
 			);
