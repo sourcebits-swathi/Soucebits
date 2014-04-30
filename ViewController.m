@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+//creating buttons
 @property (weak, nonatomic) IBOutlet UIButton *cancel_btn;
 @property (weak, nonatomic) IBOutlet UIButton *ok_btn;
 
